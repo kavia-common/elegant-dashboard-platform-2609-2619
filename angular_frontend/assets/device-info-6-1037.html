@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>device_info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./common.css" rel="stylesheet">
+  <link href="./device-info-6-1037.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Root frame (screen_6:1037) 2120x1400 with style_24 (rounded 25 + shadow_0) -->
+  <div id="device-info-root" class="abs" style="left:0px; top:0px; width:2120px; height:1400px;">
+    <!-- Landing frame 1920x1200 at (100,100) within root, background style_8 (white) -->
+    <div id="landing-4-308" class="abs ds-style-8" style="left:100px; top:100px; width:1920px; height:1200px;">
+      <!-- Sidebar: Background+Shadow (256x1200) with style_44 (card with shadows) -->
+      <div id="sidebar-4-311" class="abs ds-style-44" style="left:0px; top:0px; width:256px; height:1200px;">
+        <!-- Top bar in sidebar (256x64) style_6 (teal 0d9488) -->
+        <div id="sidebar-top-4-312" class="abs ds-style-6" style="left:0px; top:0px; width:256px; height:64px;">
+          <!-- Icon: router (Material Icons style_8 text color white) at x ~ 29.5,y ~14 -->
+          <div class="abs" style="left:29.5px; top:14px; width:30px; height:36px;">
+            <div class="abs mi ds-typo-22 ds-style-8" style="left:0px; top:0px; width:30px; height:36px; text-align:left;">router</div>
+          </div>
+          <!-- Title: Device Manager -->
+          <div class="abs" style="left:59.5px; top:18px; width:167px; height:28px;">
+            <div class="abs inter-20-700-white" style="left:8px; top:0px; width:159px; height:28px;">Device Manager</div>
+          </div>
+        </div>
+        <!-- Nav entries (two 40px rows) -->
+        <div id="nav-row1-4-887" class="abs" style="left:0px; top:64px; width:256px; height:40px;">
+          <div class="abs" style="left:16px; top:8px; width:24px; height:24px;">
+            <div class="abs mi color-374151" style="left:0; top:0; width:24px; height:24px;">person</div>
+          </div>
+          <div class="abs" style="left:40px; top:8px; width:164px; height:24px;">
+            <div class="abs inter-16-400-374151" style="left:12px; top:0px; width:152px; height:24px;">Profile Management</div>
+          </div>
+        </div>
+        <div id="nav-row2-4-892" class="abs ds-style-4" style="left:0px; top:104px; width:256px; height:40px;">
+          <div class="abs" style="left:16px; top:8px; width:24px; height:24px;">
+            <div class="abs mi color-374151" style="left:0; top:0; width:24px; height:24px;">devices</div>
+          </div>
+          <div class="abs" style="left:40px; top:8px; width:168px; height:24px;">
+            <div class="abs inter-16-400-374151" style="left:12px; top:0px; width:156px; height:24px;">Device Management</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main container to the right of sidebar (1664x1200) -->
+      <div id="main-container-4-330" class="abs" style="left:256px; top:0px; width:1664px; height:1200px;">
+        <!-- Header 1664x60 style_45 shadows -->
+        <div id="header-4-331" class="abs ds-style-45" style="left:0px; top:0px; width:1664px; height:60px;">
+          <!-- Inner content width 1488 centered with 88px margin each side -->
+          <div class="abs" style="left:88px; top:12px; width:1488px; height:36px;">
+            <!-- Right user name and role + logout -->
+            <div class="abs" style="left:720px; top:0px; width:180px; height:36px;">
+              <div class="abs" style="left:0px; top:0px; width:101px; height:36px;">
+                <div class="abs" style="left:0px; top:0px; width:77px; height:36px;">
+                  <div class="abs inter-14-600-1f2937" style="left:13px; top:0px; width:64px; height:20px;">John Doe</div>
+                  <div class="abs inter-12-400-6b7280" style="left:0px; top:20px; width:77px; height:16px;">Administrator</div>
+                </div>
+              </div>
+              <div class="abs" style="left:101px; top:6px; width:79px; height:24px;">
+                <div class="abs mi color-4b5563" style="left:0px; top:0px; width:24px; height:24px;">logout</div>
+                <div class="abs inter-14-500-4b5563" style="left:24px; top:-2px; width:55px; height:20px; text-align:center;">Logout</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main content area 1664x1140 at y=60 -->
+        <div id="main-4-351" class="abs" style="left:0px; top:60px; width:1664px; height:1140px;">
+          <!-- Inner container 1536x1365 anchored at (64, -52) per figma; we clamp visible 1140h -->
+          <div class="abs" style="left:64px; top: -52px; width:1536px; height:1365px;">
+            <!-- Top search card style_46 (border-radius 8 + shadow 5,6). 1536x70 @ y=60+? => per json top:8 relative -> here at 8 -->
+            <div id="search-card-4-354" class="abs ds-style-46" style="left:0px; top:8px; width:1536px; height:70px;">
+              <!-- Search input 1281x38 style_26 (border 1 d1d5db radius 6) -->
+              <div class="abs ds-style-26" style="left:16px; top:16px; width:1281px; height:38px;">
+                <div class="abs inter-14-400-6b7280" style="left:41px; top:10px; width:1227px; height:17px;">Search by IP or MAC</div>
+              </div>
+              <!-- Search icon square 36x38 holding 24 icon -->
+              <div class="abs" style="left:1317px; top:16px; width:36px; height:38px;">
+                <div class="abs mi color-6b7280" style="left:12px; top:7px; width:24px; height:24px;">search</div>
+              </div>
+              <!-- IP/MAC toggles -->
+              <div class="abs" style="left:1385px; top:11px; width:126px; height:20px;">
+                <div class="abs ds-style-27" style="left:0px; top:2px; width:16px; height:16px;">
+                  <div class="abs ds-style-8" style="left:0px; top:0px; width:16px; height:16px;"></div>
+                </div>
+                <div class="abs inter-14-500-374151" style="left:16px; top:0px; width:21px; height:20px;">IP</div>
+              </div>
+              <div class="abs" style="left:1422px; top:11px; width:73px; height:20px;">
+                <div class="abs ds-style-28" style="left:16px; top:2px; width:16px; height:16px;">
+                  <img src="/assets/figmaimages/figma_image_4_377.png" alt="" class="abs" style="left:0; top:0; width:16px; height:16px; border-radius:16px;">
+                </div>
+                <div class="abs inter-14-500-374151" style="left:40px; top:0px; width:41px; height:20px;">MAC</div>
+              </div>
+              <!-- Search button style_47 -->
+              <div class="abs ds-style-47" style="left:1435px; top:16px; width:81px; height:38px;">
+                <div class="abs inter-14-500-white" style="left:17px; top:9px; width:47px; height:20px; text-align:center;">Search</div>
+              </div>
+            </div>
+
+            <!-- Overlay+Shadow: Section "Device Information & Performance" card style_48 1536x635 at top:102 -->
+            <div id="section-info-4-383" class="abs ds-style-48" style="left:0px; top:102px; width:1536px; height:635px;">
+              <!-- Section header 60h -->
+              <div class="abs" style="left:0px; top:0px; width:1536px; height:60px;">
+                <div class="abs mi white" style="left:16px; top:18px; width:24px; height:24px;">devices</div>
+                <div class="abs inter-20-600-white" style="left:56px; top:16px; width:332px; height:28px;">Device Information & Performance</div>
+              </div>
+              <!-- Body background white -->
+              <div class="abs ds-style-8" style="left:0px; top:60px; width:1536px; height:575px;">
+                <!-- Top row labels: Device Status -->
+                <div class="abs" style="left:24px; top:24px; width:1488px; height:28px;">
+                  <div class="abs inter-18-600-374151" style="left:0px; top:0px; width:126px; height:28px;">Device Status:</div>
+                  <div class="abs ds-style-20" style="left:1403px; top:1px; width:85px; height:26px;">
+                    <img class="abs" src="/assets/figmaimages/figma_image_4_401.png" alt="" style="left:12px; top:8px; width:8px; height:8px; border-radius:4px;">
+                    <div class="abs inter-12-600-10b981" style="left:28px; top:5px; width:45px; height:18px;">ONLINE</div>
+                  </div>
+                </div>
+                <!-- Grid of info cards left 984x475 and right metrics 480x475 at top:100 -->
+                <div class="abs" style="left:24px; top:86px; width:1488px; height:475px;">
+                  <!-- Left 984 wide: 3 columns x 3 rows per provided blocks -->
+                  <div class="abs" style="left:0px; top:0px; width:984px; height:475px;">
+                    <!-- Row1 -->
+                    <div class="abs ds-style-31" style="left:0px; top:0px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Profile Name:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">Device vewb</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:333.33px; top:0px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Manufacturer:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">ASUS</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:666.66px; top:0px; width:317.34px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.34px; height:21px;">MAC Address:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.34px; height:24px;">00:1A:2B:3C:4D:5E</div>
+                    </div>
+                    <!-- Row2 -->
+                    <div class="abs ds-style-31" style="left:0px; top:95px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">IP Address:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">192.168.1.100</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:333.33px; top:95px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Hardware Version:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">2.0</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:666.66px; top:95px; width:317.34px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.34px; height:21px;">Software Version:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.34px; height:24px;">1.2.3</div>
+                    </div>
+                    <!-- Row3 -->
+                    <div class="abs ds-style-31" style="left:0px; top:190px; width:317.33px; height:95px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Firmware Version:</div>
+                      <div class="abs" style="left:17px; top:38px; width:283.33px; height:40px;">
+                        <div class="abs inter-16-500-0f172a" style="left:0px; top:8px; width:142px; height:24px;">3.0.0.4.388.23285</div>
+                        <div class="abs" style="left:142px; top:0px; width:141.15px; height:40px;">
+                          <div class="abs mi color-f97316" style="left:0px; top:8px; width:16px; height:24px;">update</div>
+                          <div class="abs inter-14-600-f97316" style="left:20px; top:0px; width:62px; height:40px;">Update<br>Available</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:333.33px; top:190px; width:317.33px; height:95px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Model Name:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">RT-AX88U</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:666.66px; top:190px; width:317.34px; height:95px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.34px; height:21px;">Product Class:</div>
+                      <div class="abs inter-16-700-0d9488" style="left:17px; top:38px; width:283.34px; height:24px;">Router</div>
+                    </div>
+                    <!-- Row4 -->
+                    <div class="abs ds-style-31" style="left:0px; top:285px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Serial Number:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">ABC123456789</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:333.33px; top:285px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Last Firmware Upgrade:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">2024-01-15</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:666.66px; top:285px; width:317.34px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.34px; height:21px;">Additional H/W Version:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.34px; height:24px;">Rev A</div>
+                    </div>
+                    <div class="abs ds-style-31" style="left:0px; top:380px; width:317.33px; height:79px;">
+                      <div class="abs inter-14-400-64748b" style="left:17px; top:17px; width:283.33px; height:21px;">Manufacturer OUI:</div>
+                      <div class="abs inter-16-500-0f172a" style="left:17px; top:38px; width:283.33px; height:24px;">00:1A:2B</div>
+                    </div>
+                  </div>
+
+                  <!-- Right metrics column 480x475 -->
+                  <div class="abs" style="left:1008px; top:0px; width:480px; height:475px;">
+                    <!-- Uptime card -->
+                    <div class="abs ds-style-35" style="left:0px; top:0px; width:480px; height:88px;">
+                      <div class="abs" style="left:16px; top:16px; width:448px; height:24px;">
+                        <div class="abs mi color-115e59" style="left:0; top:0; width:24px; height:24px;">timer</div>
+                        <div class="abs inter-16-500-115e59" style="left:24px; top:0; width:68px; height:24px;">Uptime:</div>
+                      </div>
+                      <div class="abs inter-20-700-ef4444" style="left:16px; top:44px; width:448px; height:28px;">7 days, 14 hours</div>
+                    </div>
+                    <!-- Temperature card -->
+                    <div class="abs ds-style-35" style="left:0px; top:104px; width:480px; height:88px;">
+                      <div class="abs" style="left:16px; top:16px; width:448px; height:24px;">
+                        <div class="abs mi color-115e59" style="left:0; top:0; width:24px; height:24px;">thermostat</div>
+                        <div class="abs inter-16-500-115e59" style="left:24px; top:0; width:111px; height:24px;">Temperature:</div>
+                      </div>
+                      <div class="abs" style="left:16px; top:44px; width:448px; height:28px;">
+                        <div class="abs inter-20-700-1f2937" style="left:0px; top:0; width:51px; height:28px;">45°C</div>
+                        <div class="abs ds-style-38" style="left:63px; top:4px; width:67px; height:24px;">
+                          <div class="abs inter-12-700-white" style="left:12px; top:4px; width:43px; height:16px;">Normal</div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CPU card -->
+                    <div class="abs ds-style-35" style="left:0px; top:208px; width:480px; height:88px;">
+                      <div class="abs" style="left:16px; top:16px; width:448px; height:24px;">
+                        <div class="abs mi color-115e59" style="left:0; top:0; width:24px; height:24px;">memory</div>
+                        <div class="abs inter-16-500-115e59" style="left:24px; top:0; width:128px; height:24px;">CPU Utilization:</div>
+                      </div>
+                      <div class="abs" style="left:16px; top:44px; width:448px; height:28px;">
+                        <div class="abs inter-20-700-1f2937" style="left:0; top:0; width:51px; height:28px;">23%</div>
+                        <div class="abs ds-style-39" style="left:51px; top:9px; width:397px; height:10px;">
+                          <img class="abs" src="/assets/figmaimages/figma_image_4_528.png" alt="" style="left:0px; top:0px; width:91.3109px; height:10px; border-radius:9999px;">
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Memory card -->
+                    <div class="abs ds-style-35" style="left:0px; top:312px; width:480px; height:88px;">
+                      <div class="abs" style="left:16px; top:16px; width:448px; height:24px;">
+                        <div class="abs mi color-115e59" style="left:0; top:0; width:24px; height:24px;">storage</div>
+                        <div class="abs inter-16-500-115e59" style="left:24px; top:0; width:129px; height:24px;">Memory Usage:</div>
+                      </div>
+                      <div class="abs" style="left:16px; top:44px; width:448px; height:28px;">
+                        <div class="abs inter-20-700-1f2937" style="left:0px; top:0; width:54.3456px; height:28px;">512%</div>
+                        <div class="abs inter-14-400-4b5563" style="left:53.98px; top:6px; width:127px; height:20px;">(512GB / 1024GB)</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second section: Device Journeys & Services style_48 1536x612 at top:761 -->
+            <div id="section-journeys-4-539" class="abs ds-style-48" style="left:0px; top:761px; width:1536px; height:612px;">
+              <!-- Header -->
+              <div class="abs" style="left:0px; top:8px; width:1536px; height:60px;">
+                <div class="abs mi white" style="left:16px; top:18px; width:24px; height:24px;">route</div>
+                <div class="abs inter-20-600-white" style="left:56px; top:16px; width:269px; height:28px;">Device Journeys & Services</div>
+              </div>
+              <!-- Body -->
+              <div class="abs ds-style-8" style="left:0px; top:68px; width:1536px; height:544px;">
+                <!-- Cards row at top:24 -->
+                <div class="abs" style="left:24px; top:24px; width:1488px; height:166px;">
+                  <!-- Wi-Fi card -->
+                  <div class="abs ds-style-41" style="left:16px; top:0px; width:192px; height:150px;">
+                    <div class="abs" style="left:17px; top:17px; width:158px; height:36px;">
+                      <div class="abs mi color-0d9488" style="left:0; top:0; width:30px; height:36px;">wifi</div>
+                      <div class="abs inter-16-600-1f2937" style="left:30px; top:6px; width:54px; height:24px;">Wi-Fi</div>
+                    </div>
+                    <div class="abs inter-14-400-6b7280" style="left:17px; top:61px; width:158px; height:60px;">Manage Wi-Fi settings,<br>guest networks, and<br>security.</div>
+                  </div>
+                  <!-- Parental Controls -->
+                  <div class="abs ds-style-41" style="left:224px; top:0px; width:192px; height:150px;">
+                    <div class="abs" style="left:17px; top:17px; width:158px; height:48px;">
+                      <div class="abs mi color-db2777" style="left:0; top:6px; width:30px; height:36px;">family_restroom</div>
+                      <div class="abs inter-16-600-1f2937" style="left:30px; top:0; width:129.3px; height:48px;">Parental<br>Controls</div>
+                    </div>
+                    <div class="abs inter-14-400-6b7280" style="left:17px; top:86px; width:158px; height:60px;">Set content filters and<br>internet access<br>schedules.</div>
+                  </div>
+                  <!-- QoS -->
+                  <div class="abs ds-style-41" style="left:432px; top:0px; width:192px; height:150px;">
+                    <div class="abs" style="left:17px; top:17px; width:158px; height:36px;">
+                      <div class="abs mi color-4f46e5" style="left:0; top:0; width:30px; height:36px;">network_check</div>
+                      <div class="abs inter-16-600-1f2937" style="left:30px; top:6px; width:45px; height:24px;">QoS</div>
+                    </div>
+                    <div class="abs inter-14-400-6b7280" style="left:17px; top:61px; width:158px; height:60px;">Prioritize traffic for<br>gaming, streaming or<br>work.</div>
+                  </div>
+                  <!-- Security -->
+                  <div class="abs ds-style-41" style="left:640px; top:0px; width:192px; height:150px;">
+                    <div class="abs" style="left:17px; top:17px; width:158px; height:36px;">
+                      <div class="abs mi color-dc2626" style="left:0; top:0; width:30px; height:36px;">security</div>
+                      <div class="abs inter-16-600-1f2937" style="left:30px; top:6px; width:77px; height:24px;">Security</div>
+                    </div>
+                    <div class="abs inter-14-400-6b7280" style="left:17px; top:61px; width:158px; height:60px;">Configure firewall and<br>intrusion detection<br>systems.</div>
+                  </div>
+                  <!-- LAN Settings -->
+                  <div class="abs ds-style-41" style="left:848px; top:0px; width:192px; height:150px;">
+                    <div class="abs" style="left:17px; top:17px; width:158px; height:36px;">
+                      <div class="abs mi color-4b5563" style="left:0; top:0; width:30px; height:36px;">settings_ethernet</div>
+                      <div class="abs inter-16-600-1f2937" style="left:30px; top:6px; width:114px; height:24px;">LAN Settings</div>
+                    </div>
+                    <div class="abs inter-14-400-6b7280" style="left:17px; top:61px; width:158px; height:60px;">Manage DHCP, IP<br>reservations, and static<br>routes.</div>
+                  </div>
+                </div>
+
+                <!-- Pagination arrows on the sides -->
+                <div class="abs ds-style-49" style="left:24px; top:163px; width:40px; height:40px;">
+                  <div class="abs mi color-000000" style="left:8px; top:8px; width:24px; height:24px;">chevron_left</div>
+                </div>
+                <div class="abs ds-style-50" style="left:1460px; top:163px; width:40px; height:40px;">
+                  <div class="abs mi color-000000" style="left:8px; top:8px; width:24px; height:24px;">chevron_right</div>
+                </div>
+
+                <!-- Accordion borders list -->
+                <div class="abs ds-style-42" style="left:24px; top:314px; width:1488px; height:306px;">
+                  <!-- Row 1 -->
+                  <div class="abs ds-style-43" style="left:1px; top:1px; width:1486px; height:60px;">
+                    <div class="abs inter-18-600-374151" style="left:16px; top:16px; width:127px; height:28px;">Wi-Fi Services</div>
+                    <div class="abs mi color-000000" style="left:1246px; top:18px; width:24px; height:24px;">expand_more</div>
+                  </div>
+                  <!-- Row 2 -->
+                  <div class="abs ds-style-43" style="left:1px; top:62px; width:1486px; height:60px;">
+                    <div class="abs inter-18-600-374151" style="left:16px; top:16px; width:232px; height:28px;">Parental Controls Services</div>
+                    <div class="abs mi color-000000" style="left:1246px; top:18px; width:24px; height:24px;">expand_more</div>
+                  </div>
+                  <!-- Row 3 -->
+                  <div class="abs ds-style-43" style="left:1px; top:123px; width:1486px; height:60px;">
+                    <div class="abs inter-18-600-374151" style="left:16px; top:16px; width:117px; height:28px;">QoS Services</div>
+                    <div class="abs mi color-000000" style="left:1246px; top:18px; width:24px; height:24px;">expand_more</div>
+                  </div>
+                  <!-- Row 4 -->
+                  <div class="abs ds-style-43" style="left:1px; top:184px; width:1486px; height:60px;">
+                    <div class="abs inter-18-600-374151" style="left:16px; top:16px; width:153px; height:28px;">Security Services</div>
+                    <div class="abs mi color-000000" style="left:1246px; top:18px; width:24px; height:24px;">expand_more</div>
+                  </div>
+                  <!-- Row 5 -->
+                  <div class="abs" style="left:1px; top:245px; width:1486px; height:60px;">
+                    <div class="abs inter-18-600-374151" style="left:16px; top:16px; width:195px; height:28px;">LAN Settings Services</div>
+                    <div class="abs mi color-000000" style="left:1246px; top:18px; width:24px; height:24px;">expand_more</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
