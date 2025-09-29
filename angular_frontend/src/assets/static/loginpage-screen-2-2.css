@@ -1,0 +1,119 @@
+/* Root container background handled by body via common.css */
+
+#loginpage-root { position: relative; }
+
+/* Decorative blobs - using background colors from styles */
+.blob-yellow-bright { background: var(--color-f9ed32); } /* style_12 */
+.blob-yellow-mid    { background: var(--color-f2d335); } /* style_13 */
+.blob-yellow-dark   { background: var(--color-d9bd32); } /* style_14 */
+
+/* Main image container uses style_15 bg if image fails */
+.main-image {
+  background: var(--color-c4c4c4); /* style_15 */
+  object-fit: cover;
+  display: block;
+}
+
+/* Right content background panel - style_16 */
+.content-frame {
+  background: var(--color-fcfeff);
+}
+
+/* Outline buttons - style_17 */
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--color-7c838a);
+  border-radius: 15px;
+}
+
+/* Create button - style_20 with style_19 radius 10 */
+.btn-create {
+  background: var(--color-f9ed32);
+  border-radius: 10px;
+}
+
+/* Input groups */
+.input-group { /* style_21 applies to nested corners; base group visually transparent */ }
+.input-rect {
+  background: var(--color-b0bac3);   /* style_22 background */
+  border-radius: 20px;               /* style_22 radius */
+}
+
+/* Typography mappings from design tokens */
+
+/* typo_26: Poppins 26, 600, lh 39, color via separate class */
+.typo-26 {
+  font-family: var(--font-poppins);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0;
+}
+
+/* typo_25: Poppins 20, 400, lh 30 */
+.typo-25 {
+  font-family: var(--font-poppins);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+/* typo_24: Poppins 20, 500, lh 30, color 7c838a (labels) */
+.typo-24 {
+  font-family: var(--font-poppins);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: var(--color-7c838a);
+}
+
+/* typo_23: Poppins 26, 500, lh 39 (button text) */
+.typo-23 {
+  font-family: var(--font-poppins);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+/* typo_22: Poppins 18, 400, lh 27 */
+.typo-22 {
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* typo_21: Poppins 26, 500, lh 39; color is b0bac3 */
+.typo-21 {
+  font-family: var(--font-poppins);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+/* typo_20: Poppins 14, 500, lh 21; color 7c838a */
+.typo-20 {
+  font-family: var(--font-poppins);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+/* typo_13: Roboto 20, 400, lh 23.4375; color 7c838a */
+.typo-13 {
+  font-family: var(--font-roboto);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.4375px;
+}
+
+/* Color helpers */
+.color-000000 { color: var(--color-000000); }
+.color-7c838a { color: var(--color-7c838a); }
+.color-b0bac3 { color: var(--color-b0bac3); }
+
+/* Labels and placeholders positioning tweaks (no shadows specified) */
+.label { /* already colored by typo-24 */ }
+.placeholder { /* inherits typography styles */ }
