@@ -1,0 +1,54 @@
+:root {
+  /* Color tokens from design system */
+  --color-ffffff: #ffffff;
+  --color-7c838a: #7c838a;
+  --color-000000: #000000;
+  --color-d9bd32: #d9bd32;
+  --color-f9ed32: #f9ed32;
+  --color-f2d335: #f2d335;
+  --color-e6f3ff: #e6f3ff;
+  --color-b0bac3: #b0bac3;
+  --color-c4c4c4: #c4c4c4;
+  --color-fcfeff: #fcfeff;
+
+  /* Typography helpers (families) */
+  --font-roboto: "Roboto", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-poppins: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Reset and base */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 1440px;        /* Figma artboard width to preserve absolute layout */
+  height: 1024px;       /* Figma artboard height to preserve absolute layout */
+  overflow: hidden;     /* Avoid scroll to match static frame */
+  background: var(--color-e6f3ff); /* style_11 / background */
+  font-family: var(--font-poppins);
+  color: var(--color-000000);
+}
+
+/* Utility: absolute positioned layer */
+.abs {
+  position: absolute;
+}
+
+/* Button reset baseline to allow precise styling */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Accessibility focus outline for keyboard users (not specified by design, but helpful) */
+:focus-visible {
+  outline: 2px solid #005fcc;
+  outline-offset: 2px;
+}
