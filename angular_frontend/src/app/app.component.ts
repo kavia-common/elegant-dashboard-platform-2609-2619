@@ -1,16 +1,15 @@
 import { Component } from '@angular/core';
-import { UiButtonComponent } from '../../projects/ui-kit/src/lib/atoms/ui-button/ui-button.component';
-import { UiInputComponent } from '../../projects/ui-kit/src/lib/atoms/ui-input/ui-input.component';
-import { UiIconComponent } from '../../projects/ui-kit/src/lib/atoms/ui-icon/ui-icon.component';
-import { UiBadgeComponent } from '../../projects/ui-kit/src/lib/atoms/ui-badge/ui-badge.component';
+import { RouterOutlet, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [UiButtonComponent, UiInputComponent, UiIconComponent, UiBadgeComponent],
+  standalone: true,
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  standalone: true
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Hello, angular';
+  // PUBLIC_INTERFACE
+  /** AppComponent is the application shell hosting the router outlet and basic navigation. */
+  title = 'Angular App';
 }
