@@ -1,17 +1,17 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { UiButtonComponent } from '../../../projects/ui-kit/src/lib/atoms/ui-button/ui-button.component';
-import { UiInputComponent } from '../../../projects/ui-kit/src/lib/atoms/ui-input/ui-input.component';
-import { UiIconComponent } from '../../../projects/ui-kit/src/lib/atoms/ui-icon/ui-icon.component';
+import { UiButtonComponent } from '../../../../projects/ui-kit/src/lib/atoms/ui-button/ui-button.component';
+import { UiInputComponent } from '../../../../projects/ui-kit/src/lib/atoms/ui-input/ui-input.component';
+import { UiIconComponent } from '../../../../projects/ui-kit/src/lib/atoms/ui-icon/ui-icon.component';
 
 @Component({
   selector: 'app-login',
   standalone: true,
   imports: [CommonModule, UiButtonComponent, UiInputComponent, UiIconComponent],
   template: `
-    <section style="min-height:100vh; display:grid; place-items:center; background:#e6f3ff;">
-      <div style="width:min(720px, 92%); display:flex; flex-direction:column; gap:20px; align-items:center;">
-        <h1 style="font-family: var(--font-family-poppins, Poppins, Roboto, Arial, sans-serif); font-size:26px; line-height:39px; font-weight:600; color:#000; margin-bottom:8px;">
+    <section class="loginpage-bg" style="min-height:100vh; display:grid; place-items:center;">
+      <div style="width:min(845px, 94%); background: var(--color-fcfeff); padding: 32px 24px; border-radius: var(--radius-20); box-shadow: var(--shadow-0); display:flex; flex-direction:column; gap: 16px;">
+        <h1 style="font-family: var(--font-family-poppins, Poppins, Roboto, Arial, sans-serif); font-size:26px; line-height:39px; font-weight:600; color:#000; margin:0;">
           Create your Free Account
         </h1>
 
@@ -21,11 +21,11 @@ import { UiIconComponent } from '../../../projects/ui-kit/src/lib/atoms/ui-icon/
 
         <ui-button variant="cta-yellow" size="lg" [fullWidth]="true">Create Account</ui-button>
 
-        <div style="color:#000; font-family: var(--font-family-poppins, Poppins, Roboto, Arial, sans-serif);">
+        <div style="color:#000; font-family: var(--font-family-poppins, Poppins, Roboto, Arial, sans-serif); text-align:center;">
           Already have an account? Log in
         </div>
 
-        <div style="margin-top:8px; color:#b0bac3; font-family: var(--font-family-poppins, Poppins, Roboto, Arial, sans-serif); font-size:26px; line-height:39px; font-weight:500;">
+        <div style="margin-top:8px; color:#b0bac3; font-family: var(--font-family-poppins, Poppins, Roboto, Arial, sans-serif); font-size:26px; line-height:39px; font-weight:500; text-align:center;">
           - OR -
         </div>
 
