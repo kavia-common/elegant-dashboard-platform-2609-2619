@@ -1,0 +1,4 @@
+{
+    "command": "npm install --legacy-peer-deps",
+    "working_directory": "/home/kavia/workspace/code-generation/elegant-dashboard-platform-2609-2619/angular_frontend"
+}
