@@ -1,0 +1,15 @@
+{
+  "name": "@app/ui-tokens",
+  "version": "0.0.1",
+  "description": "Design tokens and theming for the Angular UI library.",
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "sideEffects": [
+    "*.css"
+  ],
+  "peerDependencies": {
+    "@angular/core": "19.2.0",
+    "@angular/common": "19.2.0"
+  }
+}

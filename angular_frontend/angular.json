@@ -27,7 +27,11 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "projects/ui-tokens/src/styles/base/reset.css",
+              "projects/ui-tokens/src/styles/base/icons.css",
+              "projects/ui-tokens/src/styles/themes/emerald.css",
+              "projects/ui-tokens/src/styles/themes/yellow.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -95,9 +99,53 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "projects/ui-tokens/src/styles/base/reset.css",
+              "projects/ui-tokens/src/styles/base/icons.css",
+              "projects/ui-tokens/src/styles/themes/emerald.css",
+              "projects/ui-tokens/src/styles/themes/yellow.css"
             ],
             "scripts": []
+          }
+        }
+      }
+    },
+    "ui-tokens": {
+      "projectType": "library",
+      "root": "projects/ui-tokens",
+      "sourceRoot": "projects/ui-tokens/src",
+      "prefix": "ui",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ui-tokens/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "ui-kit": {
+      "projectType": "library",
+      "root": "projects/ui-kit",
+      "sourceRoot": "projects/ui-kit/src",
+      "prefix": "ui",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ui-kit/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "tsconfig.spec.json"
           }
         }
       }

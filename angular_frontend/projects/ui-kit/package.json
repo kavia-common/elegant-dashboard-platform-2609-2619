@@ -1,0 +1,12 @@
+{
+  "name": "@app/ui-kit",
+  "version": "0.0.1",
+  "description": "Angular UI Kit (atoms + molecules) for the dashboard application.",
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "19.2.0",
+    "@angular/common": "19.2.0"
+  }
+}

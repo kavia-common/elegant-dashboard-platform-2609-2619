@@ -5,8 +5,13 @@
     "ng": "ng",
     "start": "ng serve  --no-hmr --disable-host-check",
     "build": "ng build",
+    "build:libraries": "ng build ui-tokens && ng build ui-kit",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:ui-kit": "ng test ui-kit",
+    "test:ui-tokens": "ng test ui-tokens",
+    "storybook": "storybook dev -p 6006 -c projects/ui-kit/.storybook",
+    "build-storybook": "storybook build -c projects/ui-kit/.storybook -o dist/storybook",
     "serve:ssr:angular": "node dist/angular/server/server.mjs"
   },
   "private": true,
